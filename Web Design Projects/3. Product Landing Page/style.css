@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  
+}
+
+#main {
+    text-align: center;
+}
+
+
+
+#header {
+    display: flex;
+    background-color: #0396d7;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+}
+
+#header-img {
+    height: 100%;
+}
+
+#header-title {
+    color: white;
+    padding-left: 600px;
+    padding-top: 8px;
+    
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+   
+   
+}
+
+#navbar ul {
+   
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 15px 0 15px;
+}
+
+#video {
+    padding-top: 80px;
+}
+
+#form{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+#submit {
+    background-color:  #0396d7  ;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 4px
+}
+
+#submit:hover {
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+#tourism {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0396d7 ;
+}
+
+#tourism article {
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    
+   
+
+}
+
+#tourism article img{
+    width: 100%;
+    height: 50%;
+}
+
+#tourism article h2{
+   padding: 10px 0 10px 0;
+}
+
+
+
+
+

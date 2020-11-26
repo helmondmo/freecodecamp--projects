@@ -1,0 +1,157 @@
+* { 
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: teal;
+    position: fixed;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 28px;
+    padding: 20px;
+   
+}
+
+#navbar ul li {
+    list-style-type: none;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: white;
+    position: relative;
+}
+
+#navbar ul li:hover {
+    
+    transform: translate(0, -3px);
+}
+
+#welcome-section {
+    background-color: rgb(36, 35, 35);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-content h1 {
+    color: white;
+    font-size: 75px;
+}
+
+#welcome-content p {
+    text-align: center;
+    font-size: 24px;
+    color: teal;
+    font-style: italic;
+}
+
+#portfolio {
+    background-color:#FB8B0B;
+    text-align: center;
+}
+
+#portfolio h2 {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+    
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+ 
+}
+
+.project-title {
+    padding: 30px;
+
+}
+
+.project-title  p{
+    color: white;
+    background-color: rgb(36, 35, 35);
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+
+.project-title:hover {
+    padding: 30px;
+    transform: translate(0, -7px);
+    cursor: pointer;
+    font-weight: bold;
+   
+
+}
+
+
+.project-title img {
+    width: 100%;
+    height: 300px;
+    max-height: 100%;
+}
+
+#bottom-section {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#bottom-content h1 {
+    font-size: 60px;
+}
+
+#bottom-content p {
+    font-size:20px;
+    color: teal;
+    font-style: italic;
+} 
+
+#contact {
+    padding: 30px;
+    font-size: 40px
+}
+
+#contact i {
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+#contact i:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transform: translate(0, -7px);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    padding: 20px;
+    border-top: 4px solid teal;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}

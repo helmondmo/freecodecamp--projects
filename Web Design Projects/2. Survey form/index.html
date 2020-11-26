@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="main">
+       <div id="title">
+           <h1>Survey Form</h1>
+       </div>
+
+       <div id="description">
+           <p>Thank you for taking the time to help us improve the platform</p>
+       </div>
+
+       <form action="" id="survey-form">
+           <label for="name-label">Name:</label>
+           <input type="text" name="name" id="name-label" placeholder="name...."><br/>
+
+           <label for="email-label">Email:</label>
+           <input type="email" name="email-label" id="email"  placeholder="email"><br/>
+
+           <label for="number-label">Number:</label>
+           <input type="number" name="number-label" id="number" placeholder="number" minlength="11" maxlength ="11"><br/>
+
+           <label for="transport">What is your mode of transport?</label>
+           <select name="transport" id="dropdown">
+               <option value="drive">drive</option>
+               <option value="public transport">public transport</option>
+               <option value="cycle">cycle</option>
+           </select>
+           
+           <p>Would you consider switching your mode of transport?</p>
+           <div id="radio">
+            <input type="radio" id="yes" name="choice" value="yes"  checked>
+            <label for="yes">yes</label><br/>
+ 
+            <input type="radio" id="maybe" name="choice" value="maybe">
+            <label for="maybe">maybe</label><br/>
+ 
+            <input type="radio" id="no" name="choice" value="no">
+            <label for="no">no</label><br/>
+           </div>
+           
+
+           <p>Additional comments?</p>
+           <textarea id="comment" name="comment" placeholder="enter your comments here"></textarea><br/>
+           
+           <button type="submit" id="submit">Submit</button>
+
+       </form>
+   </div>
+    
+</body>
+</html>
